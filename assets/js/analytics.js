@@ -10,9 +10,10 @@ function gtag() {
 }
 
 window.ClimaAnalytics = {
-  // Configured Placeholders (Replace GTM-XXXXXXX / G-XXXXXXXXXX with real IDs when available)
+  // Configured IDs
   GTM_CONTAINER_ID: '[INSERT_GTM_CONTAINER_ID]',
-  GA4_MEASUREMENT_ID: '[INSERT_GA4_MEASUREMENT_ID]',
+  GA4_MEASUREMENT_ID: 'G-MBHEKTL764',
+  ADS_CONVERSION_ID: 'AW-18441347849',
 
   init: function() {
     console.log('Clima Prime Analytics Initialized - Ready for GTM/GA4 integration');
